@@ -19,3 +19,13 @@ body{
     color: white;
 }
 
+img{
+    border-radius: 60%;
+    box-shadow: black 10px 7px 9px;
+    transition: 1s;
+}
+img:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
