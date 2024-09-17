@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(45, 44, 44);
+}
+.container{
+    margin-top: 100px;
+    margin-left: 30%;
+    background-color: white;
+    width: 500px;
+    height: 300px;
+    border-radius: 7px;
+    box-shadow: rgb(16, 16, 16) 10px 7px 9px;
+    transition: 0.5s;
+}
+
+.container:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+    background-color: rgb(45, 44, 44);
+    color: white;
+}
+
